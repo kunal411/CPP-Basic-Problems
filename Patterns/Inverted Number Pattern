@@ -1,0 +1,26 @@
+/*
+4444
+333
+22
+1
+*/
+
+#include<iostream>
+using namespace std;
+
+
+int main(){
+    int n;
+    cin >> n;
+    int i = n;
+    while (i > 0){
+        int num = i;
+        while (num > 0){
+            cout << i;
+            num -= 1;
+        }
+        cout << endl;
+        i -= 1;
+    }
+  
+}
