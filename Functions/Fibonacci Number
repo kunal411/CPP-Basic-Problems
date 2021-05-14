@@ -22,6 +22,8 @@ false
 */
 
 
+#include<iostream>
+using namespace std;
 bool checkMember(int n){
     int fib1 = 1, fib2 = 1;
     
@@ -36,4 +38,16 @@ bool checkMember(int n){
     else{
         return false;
     }
+}
+
+int main(){
+
+  int n; 
+  cin >> n ;
+  if(checkMember(n)){
+    cout << "true" << endl;
+  }else{
+    cout << "false" << endl;
+  }
+
 }
